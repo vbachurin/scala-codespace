@@ -19,5 +19,6 @@ object Test {
 }
 
 class Test {
-  override def toString = "AAA"
+  override def equals(obj: Any) =
+    obj.isInstanceOf[Test]
 }
