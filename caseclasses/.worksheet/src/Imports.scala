@@ -1,7 +1,8 @@
 object Imports {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(60); 
   println("Welcome to the Scala worksheet")
 
-  case class Person(firstName: String, lastName: String);$skip(96); 
+  case class Person(firstName: String, lastName: String);$skip(182); 
+  //case class PersonWithSurname(f: String, l:String, s: String) extends Person(f, l)
 
   val person = Person("Jon", "Gald");System.out.println("""person  : Imports.Person = """ + $show(person ));$skip(71); val res$0 = 
 

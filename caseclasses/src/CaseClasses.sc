@@ -2,6 +2,7 @@ object Imports {
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
 
   case class Person(firstName: String, lastName: String)
+  //case class PersonWithSurname(f: String, l:String, s: String) extends Person(f, l)
 
   val person = Person("Jon", "Gald")              //> person  : Imports.Person = Person(Jon,Gald)
 
