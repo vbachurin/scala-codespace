@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="caseclasses/.worksheet/src"/>
+	<classpathentry kind="src" path="fibonacci/src"/>
+	<classpathentry kind="src" path="helloworld/src"/>
+	<classpathentry kind="src" path="imports/src"/>
+	<classpathentry kind="src" path="multiples3and5/.worksheet/src"/>
+	<classpathentry kind="src" path="TickTack/src"/>
+	<classpathentry kind="src" path="types/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="TickTack/bin"/>
+</classpath>
