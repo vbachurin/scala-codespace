@@ -39,6 +39,8 @@ class ThreeRulesTest extends FunSuite
      //f = f1
      r.isWin(f)==Some(c)
    }
+   
+   
 
 
 }
