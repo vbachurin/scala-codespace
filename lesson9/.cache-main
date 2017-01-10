@@ -1,0 +1,70 @@
+format version: 5
+output mode:
+1 items
+0 -> multiple
+output directories:
+1 items
+D:\dev\git\scala-codespace\lesson9\src -> D:\dev\git\scala-codespace\lesson9\bin
+compile options:
+8 items
+0 -> -javabootclasspath
+1 -> D:\dev\Java\jre1.8.0_112\lib\resources.jar;D:\dev\Java\jre1.8.0_112\lib\rt.jar;D:\dev\Java\jre1.8.0_112\lib\jsse.jar;D:\dev\Java\jre1.8.0_112\lib\jce.jar;D:\dev\Java\jre1.8.0_112\lib\charsets.jar;D:\dev\Java\jre1.8.0_112\lib\jfr.jar;D:\dev\Java\jre1.8.0_112\lib\ext\access-bridge-64.jar;D:\dev\Java\jre1.8.0_112\lib\ext\cldrdata.jar;D:\dev\Java\jre1.8.0_112\lib\ext\dnsns.jar;D:\dev\Java\jre1.8.0_112\lib\ext\jaccess.jar;D:\dev\Java\jre1.8.0_112\lib\ext\jfxrt.jar;D:\dev\Java\jre1.8.0_112\lib\ext\localedata.jar;D:\dev\Java\jre1.8.0_112\lib\ext\nashorn.jar;D:\dev\Java\jre1.8.0_112\lib\ext\sunec.jar;D:\dev\Java\jre1.8.0_112\lib\ext\sunjce_provider.jar;D:\dev\Java\jre1.8.0_112\lib\ext\sunmscapi.jar;D:\dev\Java\jre1.8.0_112\lib\ext\sunpkcs11.jar;D:\dev\Java\jre1.8.0_112\lib\ext\zipfs.jar
+2 -> -javaextdirs
+3 ->  
+4 -> -bootclasspath
+5 -> C:\Users\vladyslav.bachurin\.p2\pool\plugins\org.scala-lang.scala-library_2.11.8.v20160304-115712-1706a37eb8.jar
+6 -> -encoding
+7 -> Cp1252
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+0 items
+binary dependencies:
+0 items
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+0 items
+used names:
+0 items
+product stamps:
+0 items
+source stamps:
+0 items
+binary stamps:
+0 items
+class names:
+0 items
+internal apis:
+0 items
+external apis:
+0 items
+source infos:
+0 items
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWN+FHLl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJkQ6XGRldlxnaXRcc2NhbGEtY29kZXNwYWNlXGxlc3NvbjlcYmludAAmRDpcZGV2XGdpdFxzY2FsYS1jb2Rlc3BhY2VcbGVzc29uOVxzcmM=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWN+PRGl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJkQ6XGRldlxnaXRcc2NhbGEtY29kZXNwYWNlXGxlc3NvbjlcYmludAAmRDpcZGV2XGdpdFxzY2FsYS1jb2Rlc3BhY2VcbGVzc29uOVxzcmM=

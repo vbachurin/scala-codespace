@@ -2,7 +2,7 @@ package com.example
 
 object Test2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(79); 
   println("Welcome to the Scala worksheet")
-
+	
   case class MySome[A](val value: A) extends MayBe[A]
   case object MyNone extends MayBe[Nothing]
   /*
@@ -52,7 +52,7 @@ object Test2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._;
   	
   	//def get(): A
   		
-  };$skip(1130); 
+  };$skip(1131); 
   
 
   val mb: MayBe[Int] = MySome(4);System.out.println("""mb  : com.example.Test2.MayBe[Int] = """ + $show(mb ));$skip(42); 

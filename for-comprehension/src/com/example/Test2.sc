@@ -2,7 +2,7 @@ package com.example
 
 object Test2 {
   println("Welcome to the Scala worksheet")
-
+	
   case class MySome[A](val value: A) extends MayBe[A]
   case object MyNone extends MayBe[Nothing]
   /*
