@@ -1,0 +1,37 @@
+package com.foodreviews.spark
+
+import akka.actor.ActorSystem
+import akka.stream.ActorMaterializer
+
+import scala.util.Random
+
+
+object WSWithoutPlayApp {
+  def main(args: Array[String]): Unit = {
+    import scala.concurrent.ExecutionContext.Implicits.global
+
+    import play.api.libs.ws.ahc.AhcWSClient
+
+    implicit val actorSystem = ActorSystem()
+    implicit val materializer = ActorMaterializer()
+
+    import play.api.libs.json._
+    val data = Json.obj(
+//      "key1" -> "value1",
+//      "key2" -> "value2"
+    )
+
+    val wsClient = AhcWSClient()
+    wsClient
+      .url("http://localhost:8080/crypto-service/account-key/" + Random.nextInt(999).toString)
+      //.withQueryString("accountId" -> Random.nextString(5))
+      .withHeaders("Accept" -> "application/json")
+      .withHeaders("ContentType" -> "application/json")
+      .post(data)
+      .map {
+        response =>
+          println(response.status)
+          println(response.body)
+      }
+  }
+}
